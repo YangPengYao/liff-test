@@ -12,6 +12,8 @@
     "prettier-write-all": "prettier --write ."
   },
   "dependencies": {
+    "@line/liff": "^2.25.1",
+    "@radix-ui/react-aspect-ratio": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.2",
     "@tailwindcss/vite": "^4.0.17",
     "class-variance-authority": "^0.7.1",
