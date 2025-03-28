@@ -56,6 +56,7 @@ export default tseslint.config({
 ## About dev ngrok with LIFF
 
 1. run `ngrok http 5173` (or the port you set for vite dev server).
-2. go to LINE Developers console.
-3. find "Endpoint URL" field under LIFF tab and change the value to the ngrok's Forwarding url.
-4. change "Endpoint URL" back to the real world when finished.
+2. modify `server.allowedHosts` to the value from the value to the ngrok's Forwarding url.
+3. go to LINE Developers console.
+4. find "Endpoint URL" field under LIFF tab and change the value to the ngrok's Forwarding url.
+5. change "Endpoint URL" back to the real world when finished.

@@ -12,6 +12,6 @@ export default defineConfig({
     },
   },
   server: {
-    allowedHosts: ['3bb8-1-171-190-118.ngrok-free.app'],
+    allowedHosts: [''],
   },
 }) satisfies UserConfig;
